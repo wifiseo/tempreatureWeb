@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url('https://source.unsplash.com/featured/landscap');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.box{
+    background: rgba(54, 54, 54, 0.596);
+    padding: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    width: 100%;
+    max-width: 500px;
+}
+#searchinput{
+    border: none;
+    height: 3.5em;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+    padding: 0px 10px;
+    outline: none;
+    width: 70%;
+    border-radius: 3px;
+}
+#search{
+    background-color: rgb(28, 164, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    height: 3.5em;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 3px;
+}
+.box #tempreture{
+    font-size: 120px;
+    margin: 0;
+    margin-top: -40px;
+}
+span{
+    font-size:  150px;
+}
+#icon-wather{
+    max-width: 20%;
+}
